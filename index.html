@@ -1,0 +1,1636 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#FFD24A">
+<meta name="description" content="11/27（五）–11/29（日）北台灣親子活動整理，共 42 項、其中 28 項免費。依縣市、費用和年齡挑選，出發前請再確認官方公告。@tiffany_travel_">
+<title>北台灣親子活動週報｜11/27（五）–11/29（日）｜tiffany_travel_</title>
+<style>
+
+:root {
+  --bg: #FFF6D8;
+  --card: #ffffff;
+  --ink: #3A2E1F;
+  --sub: #7A6A55;
+  --line: #F0E0A8;
+  --yellow: #F5C400;
+  --yellow-soft: #FFE56A;
+  --yellow-bg: #FFF3B0;
+  --orange: #FF7A2E;
+  --orange-soft: #FFB080;
+  --orange-bg: #FFE4D2;
+  --blue: #2F90D4;
+  --blue-soft: #7EC4F0;
+  --blue-bg: #D7F0FF;
+  --green: #2DB87A;
+  --green-soft: #7ED9A8;
+  --green-bg: #D8F6E6;
+  --shadow: 0 6px 16px rgba(90, 60, 20, .08);
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; padding: 0; }
+body {
+  background-color: var(--bg);
+  background-image: radial-gradient(#F5C400 1.15px, transparent 1.15px);
+  background-size: 18px 18px;
+  color: var(--ink);
+  font-family: -apple-system, "PingFang TC", "Noto Sans TC", "Noto Sans CJK TC", "Microsoft JhengHei", sans-serif;
+  line-height: 1.65;
+}
+a { color: inherit; }
+.wrap { max-width: 480px; margin: 0 auto; padding: 0 16px 40px; }
+
+/* Hero */
+.hero {
+  margin: 0 -16px 14px;
+  padding: 14px 20px 16px;
+  background: linear-gradient(165deg, #FFE56A 0%, #FFD24A 55%, #FFBE55 100%);
+  border-radius: 0 0 32px 32px;
+  position: relative;
+  overflow: hidden;
+}
+.hero::before, .hero::after {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+}
+.hero::before {
+  width: 140px; height: 140px;
+  right: -36px; top: -48px;
+  background: rgba(255,255,255,.35);
+}
+.hero::after {
+  width: 90px; height: 90px;
+  left: -28px; bottom: -30px;
+  background: rgba(255,122,46,.22);
+}
+.acct { font-size: 13px; color: #6A5420; font-weight: 600; position: relative; z-index: 1; }
+.hero h1 {
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 4px 0 6px;
+  position: relative;
+  z-index: 1;
+}
+.range {
+  font-size: 15px;
+  font-weight: 800;
+  color: #8A4B12;
+  margin: 0 0 10px;
+  position: relative;
+  z-index: 1;
+}
+.badges { display: flex; flex-wrap: wrap; gap: 6px; position: relative; z-index: 1; }
+.pill {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: #fff;
+  color: #6A5420;
+}
+.pill.free { background: var(--green); color: #fff; }
+.pill.blue { background: var(--blue); color: #fff; }
+.pill.orange { background: var(--orange); color: #fff; }
+
+/* Notice / sections */
+.warn {
+  background: #FFF4D0;
+  border: 2px solid #F5C400;
+  color: #6A4A00;
+  border-radius: 18px;
+  padding: 10px 14px;
+  font-size: 13.5px;
+  margin: 0 0 12px;
+}
+.warn b { color: #8A4B12; }
+.sec {
+  font-size: 18px;
+  margin: 22px 2px 10px;
+}
+.intro { font-size: 14.5px; color: #5a4b3e; margin: 0 0 12px; }
+
+/* Highlights */
+.pick {
+  display: flex;
+  gap: 10px;
+  background: var(--card);
+  border-radius: 20px;
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  box-shadow: var(--shadow);
+  border: 2px solid transparent;
+}
+.pick.yellow { border-color: var(--yellow-soft); }
+.pick.orange { border-color: var(--orange-soft); }
+.pick.blue { border-color: var(--blue-soft); }
+.pick.green { border-color: var(--green-soft); }
+.pick-num {
+  flex: none;
+  width: 36px; height: 36px;
+  border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-weight: 800;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 2px;
+}
+.pick.yellow .pick-num { background: var(--yellow); color: #3A2E1F; }
+.pick.orange .pick-num { background: var(--orange); }
+.pick.blue .pick-num { background: var(--blue); }
+.pick.green .pick-num { background: var(--green); }
+.pick-kicker { font-size: 12px; font-weight: 700; color: var(--sub); margin-bottom: 2px; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.pick h3 { font-size: 15.5px; margin: 0 0 4px; line-height: 1.35; }
+.pick p { margin: 0 0 6px; font-size: 13.5px; color: #5a4b3e; }
+.more {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--blue);
+}
+
+/* Filters */
+.filters {
+  background: var(--card);
+  border-radius: 22px;
+  padding: 10px 12px 12px;
+  box-shadow: var(--shadow);
+  margin-bottom: 14px;
+}
+.filters h2 { font-size: 16px; margin: 0 0 8px; }
+.row-label { font-size: 12px; font-weight: 800; color: var(--sub); margin: 6px 2px 5px; letter-spacing: .04em; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip {
+  appearance: none;
+  border: 2px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 4px 10px 4px 4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  cursor: pointer;
+  line-height: 1.2;
+}
+.chip .ico {
+  width: 26px; height: 26px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  background: #FFF6D8;
+}
+.chip.yellow .ico { background: var(--yellow-bg); }
+.chip.orange .ico { background: var(--orange-bg); }
+.chip.blue .ico { background: var(--blue-bg); }
+.chip.green .ico { background: var(--green-bg); }
+.chip.on {
+  color: #fff;
+  box-shadow: 0 3px 0 rgba(90, 60, 20, .12);
+}
+.chip.on .ico { background: rgba(255,255,255,.4); }
+.chip.on.yellow { background: var(--yellow); border-color: var(--yellow); color: #3A2E1F; }
+.chip.on.orange { background: var(--orange); border-color: var(--orange); }
+.chip.on.blue { background: var(--blue); border-color: var(--blue); }
+.chip.on.green { background: var(--green); border-color: var(--green); }
+.chip.on.yellow .ico { background: #fff; }
+.filter-count { font-size: 13px; color: var(--sub); margin: 8px 2px 0; }
+.filter-count em { font-style: normal; font-weight: 800; color: var(--orange); }
+
+/* Event cards */
+.county-block { scroll-margin-top: 12px; }
+.county-block h2 {
+  font-size: 18px;
+  margin: 22px 2px 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.county-block h2 .n {
+  font-size: 12.5px;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--sub);
+}
+.card {
+  background: var(--card);
+  border-radius: 20px;
+  padding: 14px 14px 12px;
+  margin-bottom: 12px;
+  box-shadow: var(--shadow);
+}
+.card-top { display: flex; align-items: center; justify-content: space-between; gap: 8px; margin-bottom: 6px; }
+.county-dot {
+  font-size: 12.5px;
+  font-weight: 800;
+  padding: 3px 10px 3px 6px;
+  border-radius: 999px;
+  background: var(--blue-bg);
+  color: #1F5E8A;
+}
+.county-dot.green { background: var(--green-bg); color: #1A6B46; }
+.county-dot.yellow { background: var(--yellow-bg); color: #7A5A00; }
+.county-dot.orange { background: var(--orange-bg); color: #B14A12; }
+.county-dot.blue { background: var(--blue-bg); color: #1F5E8A; }
+.badge {
+  display: inline-block;
+  font-size: 12.5px;
+  font-weight: 800;
+  padding: 2px 9px;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+.badge.free { background: var(--green); color: #fff; }
+.badge.paid { background: var(--orange); color: #fff; }
+.badge.partial { background: var(--yellow); color: #3A2E1F; }
+.card-title { font-size: 16.5px; margin: 0 0 8px; line-height: 1.35; }
+.meta { list-style: none; margin: 0; padding: 0; font-size: 13.5px; }
+.meta li {
+  display: flex;
+  gap: 8px;
+  padding: 5px 0;
+  border-top: 1px dashed var(--line);
+}
+.meta .k { flex: none; width: 36px; font-weight: 800; color: var(--sub); }
+.fee-free { color: var(--green); font-weight: 800; }
+.fee-paid { font-weight: 700; }
+.fee-partial { color: #B14A12; font-weight: 800; }
+.desc { font-size: 14px; margin: 8px 0 0; color: #5a4b3e; }
+.card-note { font-size: 12.5px; color: var(--sub); margin: 6px 0 0; }
+.card-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+.hint { font-size: 11.5px; color: var(--sub); }
+
+html.js .event-card.is-hidden,
+html.js .county-block.is-empty,
+html.js #picks.is-hidden { display: none; }
+.empty {
+  display: none;
+  background: var(--card);
+  border-radius: 18px;
+  padding: 20px 16px;
+  text-align: center;
+  color: var(--sub);
+  box-shadow: var(--shadow);
+}
+html.js .empty.show { display: block; }
+
+/* Upcoming / notes / footer */
+.soon { list-style: none; margin: 0; padding: 0; }
+.soon li {
+  background: var(--card);
+  border-radius: 16px;
+  padding: 10px 14px;
+  margin-bottom: 8px;
+  box-shadow: var(--shadow);
+  font-size: 14px;
+}
+.soon b { color: var(--orange); margin-right: 6px; }
+.notes { font-size: 13px; color: var(--sub); margin: 0; padding-left: 18px; }
+.notes li { margin-bottom: 6px; }
+
+.cta { margin-top: 22px; display: grid; gap: 10px; }
+.cbtn {
+  display: block;
+  text-align: center;
+  font-weight: 800;
+  font-size: 16px;
+  padding: 15px;
+  border-radius: 16px;
+  text-decoration: none;
+  color: #fff;
+}
+.ig { background: linear-gradient(90deg, #F58529, #DD2A7B, #8134AF); }
+.line { background: #06C755; }
+footer.disc {
+  margin-top: 18px;
+  font-size: 11.5px;
+  color: var(--sub);
+  line-height: 1.7;
+}
+footer.disc a { color: var(--sub); }
+
+@media (min-width: 520px) {
+  body { background-attachment: fixed; }
+}
+
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hero">
+    <div class="acct">@tiffany_travel_ ・ 北台灣親子旅遊</div>
+    <h1>🌞 北台灣親子活動週報</h1>
+    <p class="range">11/27（五）–11/29（日）</p>
+    <div class="badges">
+      <span class="pill">共 42 項</span>
+      <span class="pill free">🎁 28 項免費</span>
+      <span class="pill orange">🎫 11 項付費</span>
+      <span class="pill blue">3 項部分免費</span>
+    </div>
+  </header>
+
+  <div class="warn"><b>📅 這個週六（11/28）是選舉投票日</b><br>臺北市立圖書館全館休館；科教館照常開放，但部分體驗會暫停；林本源園邸白天要到 11:00 才開園；宜蘭中興 57 影展週六沒有排片。出門前記得再看一下官方公告。</div>
+
+  <section id="events">
+    <div class="filters" aria-label="活動篩選">
+      <h2>🔍 找活動</h2>
+      <p class="intro" style="margin-bottom:8px">點下面的圖示篩選縣市、費用和年齡，選中後圖示會亮起來。</p>
+      <div class="row-label">縣市</div>
+      <div class="chips" role="group" aria-label="縣市"><a class="chip yellow on" data-filter="region" data-value="all" href="#events" aria-pressed="true"><span class="ico" aria-hidden="true">🌈</span>全部</a><a class="chip blue" data-filter="region" data-value="台北" href="#sec-taipei" aria-pressed="false"><span class="ico" aria-hidden="true">🏙️</span>台北</a><a class="chip green" data-filter="region" data-value="新北" href="#sec-newtaipei" aria-pressed="false"><span class="ico" aria-hidden="true">🌉</span>新北</a><a class="chip yellow" data-filter="region" data-value="基隆" href="#sec-keelung" aria-pressed="false"><span class="ico" aria-hidden="true">⚓</span>基隆</a><a class="chip orange" data-filter="region" data-value="桃園" href="#sec-taoyuan" aria-pressed="false"><span class="ico" aria-hidden="true">✈️</span>桃園</a><a class="chip yellow" data-filter="region" data-value="新竹" href="#sec-hsinchu" aria-pressed="false"><span class="ico" aria-hidden="true">🌤️</span>新竹</a><a class="chip green" data-filter="region" data-value="宜蘭" href="#sec-yilan" aria-pressed="false"><span class="ico" aria-hidden="true">♨️</span>宜蘭</a></div>
+      <div class="row-label">費用</div>
+      <div class="chips" role="group" aria-label="費用"><a class="chip yellow on" data-filter="cost" data-value="all" href="#events" aria-pressed="true"><span class="ico" aria-hidden="true">🗂️</span>全部</a><a class="chip green" data-filter="cost" data-value="free" href="#events" aria-pressed="false"><span class="ico" aria-hidden="true">🎁</span>免費</a><a class="chip orange" data-filter="cost" data-value="paid" href="#events" aria-pressed="false"><span class="ico" aria-hidden="true">🎫</span>付費</a><a class="chip yellow" data-filter="cost" data-value="partial" href="#events" aria-pressed="false"><span class="ico" aria-hidden="true">🟨</span>部分免費</a></div>
+      <div class="row-label">適合年齡</div>
+      <div class="chips" role="group" aria-label="適合年齡"><a class="chip yellow on" data-filter="age" data-value="all" href="#events" aria-pressed="true"><span class="ico" aria-hidden="true">👨‍👩‍👧‍👦</span>不限</a><a class="chip yellow" data-filter="age" data-value="0-2" href="#events" aria-pressed="false"><span class="ico" aria-hidden="true">🍼</span>0–2 歲</a><a class="chip orange" data-filter="age" data-value="3-5" href="#events" aria-pressed="false"><span class="ico" aria-hidden="true">🧸</span>3–5 歲</a><a class="chip blue" data-filter="age" data-value="6-8" href="#events" aria-pressed="false"><span class="ico" aria-hidden="true">🎒</span>6–8 歲</a><a class="chip green" data-filter="age" data-value="9-12" href="#events" aria-pressed="false"><span class="ico" aria-hidden="true">📖</span>9–12 歲</a></div>
+      <p class="filter-count" id="filter-count">符合條件：<em>42</em> 項</p>
+      <noscript><p class="filter-count">沒有開啟 JavaScript 時，點縣市圖示會跳到該區完整名單。</p></noscript>
+    </div>
+  </section>
+
+  <section id="picks">
+    <h2 class="sec">✨ 本週精選：帶小小孩出門</h2>
+    <p class="intro">先看好這幾場，再往下看各縣市的完整名單。</p>
+    
+<article class="pick yellow">
+  <div class="pick-num">1</div>
+  <div class="pick-body">
+    <div class="pick-kicker">新北 ・ <span class="badge free">免費</span></div>
+    <h3>2026新北歡樂耶誕城（卡娜赫拉的小動物）</h3>
+    <p>11/27–29 市民廣場還有耶誕市集和聖誕老人見面會，天黑後主燈秀每半小時一場，3–8 歲的小朋友會很喜歡。</p>
+    <a class="more" href="#nt01">看詳細資訊 ↓</a>
+  </div>
+</article>
+
+<article class="pick orange">
+  <div class="pick-num">2</div>
+  <div class="pick-body">
+    <div class="pick-kicker">基隆 ・ <span class="badge free">免費</span></div>
+    <h3>LOOK! KEELUNG 奇幻基隆光帶＋海羊尋友扭蛋</h3>
+    <p>沿著海洋廣場到田寮河找 3 個角色，完成任務可抽免費限定別針扭蛋。6 歲左右、像米妮這個年紀，玩尋寶剛剛好。</p>
+    <a class="more" href="#kl01">看詳細資訊 ↓</a>
+  </div>
+</article>
+
+<article class="pick blue">
+  <div class="pick-num">3</div>
+  <div class="pick-body">
+    <div class="pick-kicker">宜蘭 ・ <span class="badge free">免費</span></div>
+    <h3>紙廠電影院—中興57影展（11/29三場）</h3>
+    <p>週日 10:30 早場《極鼠方程式》是普遍級動畫，記得先到 Accupass 免費索票。11/28（六）沒有排片。</p>
+    <a class="more" href="#yl02">看詳細資訊 ↓</a>
+  </div>
+</article>
+
+<article class="pick green">
+  <div class="pick-num">4</div>
+  <div class="pick-body">
+    <div class="pick-kicker">台北 ・ <span class="badge free">免費</span></div>
+    <h3>藝起圖像繪故事「剛剛好的相遇」：《地圖之外》</h3>
+    <p>11/29 10:30，繪本作者帶著用拼貼做一張自己的旅行地圖。12 歲以下親子、僅 25 組，要先報名。</p>
+    <a class="more" href="#tp05">看詳細資訊 ↓</a>
+  </div>
+</article>
+
+<article class="pick yellow">
+  <div class="pick-num">5</div>
+  <div class="pick-body">
+    <div class="pick-kicker">桃園 ・ <span class="badge partial">部分免費</span></div>
+    <h3>兒童藝術特展「一樣不一樣 Same but Different」（11/30結束）</h3>
+    <p>可以動手摸、搬、玩的共融藝術展，未滿 18 歲免費，11/30 就結束了。</p>
+    <a class="more" href="#ty02">看詳細資訊 ↓</a>
+  </div>
+</article>
+
+<article class="pick orange">
+  <div class="pick-num">6</div>
+  <div class="pick-body">
+    <div class="pick-kicker">台北 ・ <span class="badge paid">付費</span></div>
+    <h3>愛樂劇工廠兒童歌舞劇《新龜兔賽跑》PLUS</h3>
+    <p>11/28、11/29 共 3 場，建議 5 歲以上。票價 NT$500／1,000。</p>
+    <a class="more" href="#tp02">看詳細資訊 ↓</a>
+  </div>
+</article>
+  </section>
+
+  <div class="empty" id="empty">這個條件目前沒有符合的活動，換一個圖示再看看吧。</div>
+  <section class="county-block" id="sec-taipei"><h2>🏙️ 台北市 <span class="n">15 項</span></h2>
+<article class="card event-card" id="tp01"
+  data-region="台北"
+  data-cost="paid"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">巧虎英語舞臺劇《Finding Rainbow Island 尋找彩虹島》</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）、11/29（日）</span></li>
+    <li><span class="k">時間</span><span>10:30、13:30（兩天各2場）</span></li>
+    <li><span class="k">地點</span><span>臺北市兒童新樂園 兒童劇場（士林區）</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">NT$850（含兒童新樂園入園）</span></li>
+    <li><span class="k">報名</span><span>需購票，對號入座</span></li>
+    <li><span class="k">適合</span><span>0歲以上，一人一票 </span></li>
+  </ul>
+  <p class="desc">巧虎英語舞臺劇，票價已含入園費，看完可順遊兒童新樂園。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1ET7M40" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp02"
+  data-region="台北"
+  data-cost="paid"
+  data-amin="5"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">愛樂劇工廠兒童歌舞劇《新龜兔賽跑》PLUS</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）、11/29（日）</span></li>
+    <li><span class="k">時間</span><span>11/28 14:30；11/29 10:30、14:30</span></li>
+    <li><span class="k">地點</span><span>臺北市政大樓親子劇場（信義區市府路1號2樓）</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">NT$500／1,000</span></li>
+    <li><span class="k">報名</span><span>需購票（OPENTIX）</span></li>
+    <li><span class="k">適合</span><span>建議5歲以上 </span></li>
+  </ul>
+  <p class="desc">龜兔賽跑十年後的新結局，笑中帶淚的親子歌舞劇。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.opentix.life/event/2091776562129170433" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp03"
+  data-region="台北"
+  data-cost="paid"
+  data-amin="5"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">豬探長小劇場《松鼠大亨驚魂記》</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）</span></li>
+    <li><span class="k">時間</span><span>14:30、19:30</span></li>
+    <li><span class="k">地點</span><span>臺北市藝文推廣處城市舞台（松山區八德路三段25號）</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">約NT$500–2,000（依座位）</span></li>
+    <li><span class="k">報名</span><span>需購票（OPENTIX）</span></li>
+    <li><span class="k">適合</span><span>建議5歲以上（來源未標年齡） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">如果劇團的親子偵探劇場。</p>
+  <p class="card-note">年齡為建議值；11/29 是否有場次來源不一致，只列11/28</p>
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.ifkids.com.tw/tickets/1" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp04"
+  data-region="台北"
+  data-cost="paid"
+  data-amin="6"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">聖誕歌劇《阿毛與夜訪客》</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）</span></li>
+    <li><span class="k">時間</span><span>15:00、19:30</span></li>
+    <li><span class="k">地點</span><span>臺北市中山堂 中正廳</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">NT$500／800／1,200／1,500</span></li>
+    <li><span class="k">報名</span><span>需購票</span></li>
+    <li><span class="k">適合</span><span>建議6歲以上（來源未標年齡，請看售票頁分級） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">耶誕歌劇，適合想帶孩子第一次看歌劇的家庭。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.opentix.life/event/2093174017485344769" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp05"
+  data-region="台北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="12">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">藝起圖像繪故事「剛剛好的相遇」：《地圖之外》</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/29（日）</span></li>
+    <li><span class="k">時間</span><span>10:30–11:30</span></li>
+    <li><span class="k">地點</span><span>台北當代藝術館 一樓活動大廳</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>需事先官網報名（限25組親子，一大一小）</span></li>
+    <li><span class="k">適合</span><span>12歲以下親子 </span></li>
+  </ul>
+  <p class="desc">作者帶領聽故事，用拼貼和色紙做自己的旅行地圖。每週日10:00–12:00為親子日。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.moca.taipei/tw/ExhibitionAndEvent/Info/%E3%80%90%E7%95%B6%E4%BB%A3%E9%A4%A8%EF%BD%98%E7%B6%AD%E4%BA%AC%E5%9C%8B%E9%9A%9B%E3%80%91%E3%80%8A%E5%9C%B0%E5%9C%96%E4%B9%8B%E5%A4%96%E3%80%8B%EF%BC%8C%E4%B8%80%E8%B5%B7%E5%B1%95%E9%96%8B%E5%B1%AC%E6%96%BC%E8%87%AA%E5%B7%B1%E7%9A%84%E6%97%85%E7%A8%8B" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp06"
+  data-region="台北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">2026士林官邸菊展「菊映方圓」</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/27（五）–12/13（日）</span></li>
+    <li><span class="k">時間</span><span>戶外08:00–19:00；室內08:30–19:00（八角亭至17:00）</span></li>
+    <li><span class="k">地點</span><span>士林官邸公園（福林路60號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">15大展區賞菊、集章，免費入場。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.travel.taipei/zh-tw/news/details/68307" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp07"
+  data-region="台北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="3">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">卡哇伊＊媽媽 Festival 寶寶運動會</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）–11/29（日）</span></li>
+    <li><span class="k">時間</span><span>依活動頁</span></li>
+    <li><span class="k">地點</span><span>國立臺灣科學教育館 7樓南側特展區（士林區士商路189號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費入場</span></li>
+    <li><span class="k">報名</span><span>參加比賽需先網路報名並領電子票券</span></li>
+    <li><span class="k">適合</span><span>寶寶為主，建議0–3歲（依活動頁為準） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">寶寶運動會、親子講座與市集。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.ntsec.gov.tw/article/detail.aspx?a=6191" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp08"
+  data-region="台北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">一粒米的時代行旅—蓬萊米百年特展暨市集</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）–11/29（日）</span></li>
+    <li><span class="k">時間</span><span>11/28 12:00–19:00；11/29 11:00–18:00</span></li>
+    <li><span class="k">地點</span><span>華山1914文化創意產業園區 東2C、東2D館</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">蓬萊米百年特展加市集，認識一粒米的故事。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://fae.moa.gov.tw/theme_data.php?id=34478&amp;sub_theme=event_info&amp;theme=news" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp09"
+  data-region="台北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">Hello Kitty 台灣感性快閃店</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/9（一）–12/12（六）</span></li>
+    <li><span class="k">時間</span><span>11:00–19:00（最後入場18:30）</span></li>
+    <li><span class="k">地點</span><span>華山1914文化創意產業園區 中5B館（鍋爐室）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>線上預約優先，現場排隊候位</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">Hello Kitty 復古台灣場景與限定周邊。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.huashan1914.com/exhibition/Hello%20Kitty%E5%8F%B0%E7%81%A3%E6%84%9F%E6%80%A7%20%E5%BF%AB%E9%96%83%E5%BA%97" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp10"
+  data-region="台北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">2026臺灣花卉推介會</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/27（五）–11/29（日）</span></li>
+    <li><span class="k">時間</span><span>10:00–17:00</span></li>
+    <li><span class="k">地點</span><span>臺北花博公園 圓山園區 爭艷館／爭艷廣場</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費入場（部分花藝體驗、商品另計）</span></li>
+    <li><span class="k">報名</span><span>自由入場；部分體驗需另行報名</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">花卉展售與花藝體驗，順遊花博公園。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.expopark.taipei/News_Photo_Content.aspx?n=247&amp;s=4590" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp11"
+  data-region="台北"
+  data-cost="free"
+  data-amin="3"
+  data-amax="8">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">小小世界兒童英語故事時間</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/29（日）</span></li>
+    <li><span class="k">時間</span><span>10:00–11:30</span></li>
+    <li><span class="k">地點</span><span>臺北市立圖書館總館 B2多功能活動室</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免報名</span></li>
+    <li><span class="k">適合</span><span>3–8歲 </span></li>
+  </ul>
+  <p class="desc">英語繪本故事時間。注意11/28全市圖閉館。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://tpml.gov.taipei/News_Content.aspx?n=3951678DEC0A8461&amp;s=0F1F2F30C625CC86&amp;sms=9D72E82EC16F3E64" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp12"
+  data-region="台北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="6">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">錘子超人出動！</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/27（五）</span></li>
+    <li><span class="k">時間</span><span>10:30–11:30</span></li>
+    <li><span class="k">地點</span><span>臺北玩具轉運站（中正區忠孝東路一段108號3樓）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>需Accupass報名；限5組親子（一大一小），需為中心會員，場次開始10分鐘內報到</span></li>
+    <li><span class="k">適合</span><span>適合0–6歲（學齡前）；需為中心會員 </span></li>
+  </ul>
+  <p class="desc">小錘子敲洞洞板、推球道、敲黏土釘子。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.accupass.com/event/2611091029561040740330" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp13"
+  data-region="台北"
+  data-cost="paid"
+  data-amin="4"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">國立臺灣科學教育館 常設展與每日科學工作坊</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/27（五）、11/29（日）；11/28 部分暫停</span></li>
+    <li><span class="k">時間</span><span>週六日09:00–18:00（售票至17:00）</span></li>
+    <li><span class="k">地點</span><span>國立臺灣科學教育館（士林區士商路189號）</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">常設展 全票NT$120／優待NT$90</span></li>
+    <li><span class="k">報名</span><span>部分工作坊現場報名</span></li>
+    <li><span class="k">適合</span><span>建議4歲以上 <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">11/27與11/29有定時工作坊與科學show；11/28選舉日部分體驗、導覽暫停。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.ntsec.gov.tw/article/activityCalendar.aspx?a=17&amp;dt=2026-11-27" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp14"
+  data-region="台北"
+  data-cost="paid"
+  data-amin="5"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">郵政博物館「Oh！海郵」海洋生物郵票特展（最後一天11/29）</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>至11/29（日）</span></li>
+    <li><span class="k">時間</span><span>09:00–17:00</span></li>
+    <li><span class="k">地點</span><span>郵政博物館 6樓特展室</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">全票NT$30／優待NT$15</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>建議5歲以上 <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">海洋生物郵票特展，本週末是最後機會。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://museum.post.gov.tw/post/Postal_Museum/museum/index.jsp?ID=131&amp;MA_Id=43A62D79-C2F0-4F56-BEC9-9E0904DD3AE0&amp;control_type=page" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="tp15"
+  data-region="台北"
+  data-cost="paid"
+  data-amin="3"
+  data-amax="17">
+  <div class="card-top">
+    <span class="county-dot blue">🏙️ 台北市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">KidZania 奇薩尼亞台北 試營運</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/24–12/6 試營運</span></li>
+    <li><span class="k">時間</span><span>平日9:00–17:00；假日10:00–18:00</span></li>
+    <li><span class="k">地點</span><span>LaLaport 南港 5F（南港區經貿二路131號）</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">孩童(3–17歲) NT$1,400／成人 NT$700</span></li>
+    <li><span class="k">報名</span><span>每天限量，現場不售票，需先購票</span></li>
+    <li><span class="k">適合</span><span>3–17歲（成人須陪同） </span></li>
+  </ul>
+  <p class="desc">職業體驗小城市，試營運每日限量。</p>
+  <p class="card-note">11/28 選舉日營運時間未另行查證</p>
+  <div class="card-foot">
+    
+    <a class="more" href="https://tiffanylin515-lab.github.io/KidZania-Taipei/" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article></section><section class="county-block" id="sec-newtaipei"><h2>🌉 新北市 <span class="n">7 項</span></h2>
+<article class="card event-card" id="nt01"
+  data-region="新北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot green">🌉 新北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">2026新北歡樂耶誕城（卡娜赫拉的小動物）</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/13–12/27（每日亮燈）</span></li>
+    <li><span class="k">時間</span><span>每日17:30–23:00亮燈；市集與設施11:00–22:00</span></li>
+    <li><span class="k">地點</span><span>板橋 新北市民廣場、站前廣場、萬坪公園、府中廣場</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">熱氣球主燈與四大燈區，主燈秀每整點、半點一場約5分鐘。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://christmasland.ntpc.gov.tw/event.php" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="nt02"
+  data-region="新北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot green">🌉 新北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">2026新北耶誕市集 X 亞洲電子競技公開賽</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/27（五）–11/29（日）</span></li>
+    <li><span class="k">時間</span><span>11:00–22:00</span></li>
+    <li><span class="k">地點</span><span>新北市民廣場（板橋）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">近百家店家市集、聖誕老人見面會、舞台互動；11/28–29電競總決賽。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://christmasland.ntpc.gov.tw/event-detail.php?i=202" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="nt03"
+  data-region="新北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot green">🌉 新北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">幻旅林園（林本源園邸夜間光影）</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>每週六、日至12/13</span></li>
+    <li><span class="k">時間</span><span>18:00–21:00（11/28白天延到11:00開園）</span></li>
+    <li><span class="k">地點</span><span>國定古蹟林本源園邸（板橋區西門街9號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費（夜間入園）</span></li>
+    <li><span class="k">報名</span><span>免預約，人多時現場管制</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">百年古蹟夜間光影秀、藝術裝置與闖關。</p>
+  <p class="card-note">白天一般票NT$80，未滿12歲免費</p>
+  <div class="card-foot">
+    
+    <a class="more" href="https://christmasland.ntpc.gov.tw/event-detail.php?i=209" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="nt04"
+  data-region="新北"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot green">🌉 新北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">碧潭地景裝置展「遇見小王子 漫遊碧潭間」</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>10/17–12/13</span></li>
+    <li><span class="k">時間</span><span>每日18:00–22:00點燈</span></li>
+    <li><span class="k">地點</span><span>碧潭風景區（新店區碧潭東岸）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">巨型小王子與小狐狸裝置，12/13晚有閉幕煙火。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://newtaipei.travel/zh-tw/calendar/detail/4058" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="nt05"
+  data-region="新北"
+  data-cost="free"
+  data-amin="3"
+  data-amax="10">
+  <div class="card-top">
+    <span class="county-dot green">🌉 新北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">湯姆熊親子兒童劇《湯姆西遊記2.0》</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/29（日）</span></li>
+    <li><span class="k">時間</span><span>15:00開演</span></li>
+    <li><span class="k">地點</span><span>新店裕隆城 5樓機械廣場（新店區中興路三段70號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>網路預約限湯姆熊VIP會員；非會員或向隅者可於13:00起在舞台區前方索取現場保留席</span></li>
+    <li><span class="k">適合</span><span>建議3–10歲（來源未標） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">免費兒童劇，現場有互動闖關、家庭拍照與抽獎。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.tomsworld.com.tw/news_in.aspx?mnuid=1081&amp;modid=7&amp;nid=8594" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="nt06"
+  data-region="新北"
+  data-cost="free"
+  data-amin="4"
+  data-amax="10">
+  <div class="card-top">
+    <span class="county-dot green">🌉 新北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">「明志科技大學×多元文化」英語說故事與創意手作</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/29（日）</span></li>
+    <li><span class="k">時間</span><span>14:00–16:00</span></li>
+    <li><span class="k">地點</span><span>新北市立圖書館中港分館 7樓多功能教室（新莊區中港路350號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>網路報名已額滿（15組親子）；官方寫若名額未滿可現場參加</span></li>
+    <li><span class="k">適合</span><span>親子；建議4歲以上（來源未標） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">本場主題為俄羅斯；明志科大境外生雙語導讀加DIY，現場有翻譯。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.library.ntpc.gov.tw/singlehtml/ActvInfo?cntId=59376eeef91b4363b3e1f9e7ca41dc1a" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="nt07"
+  data-region="新北"
+  data-cost="free"
+  data-amin="5"
+  data-amax="12">
+  <div class="card-top">
+    <span class="county-dot green">🌉 新北市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">美食故事集章趣（24小時新北美食城）</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）</span></li>
+    <li><span class="k">時間</span><span>11:00–11:40、14:20–15:00</span></li>
+    <li><span class="k">地點</span><span>新北市政府三重安芯中心 5樓</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>需報名（每場限25人）</span></li>
+    <li><span class="k">適合</span><span>親子；建議5歲以上（來源未標） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">在展場找美食印記，解鎖新北美食圖鑑。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://newtaipeiband.tw/news-20261029-food-events.html" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article></section><section class="county-block" id="sec-keelung"><h2>⚓ 基隆市 <span class="n">2 項</span></h2>
+<article class="card event-card" id="kl01"
+  data-region="基隆"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot yellow">⚓ 基隆市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">LOOK! KEELUNG 奇幻基隆光帶＋海羊尋友扭蛋</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/24–2027/2/28</span></li>
+    <li><span class="k">時間</span><span>點燈約17:30–23:00；11/28起週六日14:00–20:00於基隆微風東岸兌換扭蛋</span></li>
+    <li><span class="k">地點</span><span>基隆海洋廣場至田寮河兩岸</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免預約；扭蛋需找到3個角色並發1則公開貼文</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">沿光帶找角色拍照，完成任務可免費抽限定IP別針扭蛋。</p>
+  <p class="card-note">點燈時間來自媒體報導</p>
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.klcg.gov.tw/tw/klcg1/3168-325098.html" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="kl02"
+  data-region="基隆"
+  data-cost="paid"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot yellow">⚓ 基隆市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">潮境智能海洋館「Trick or Fish」萬聖節特別活動</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>至11/30（週一休館，實際可玩11/28–29）</span></li>
+    <li><span class="k">時間</span><span>09:00–17:00（最後售票16:00）</span></li>
+    <li><span class="k">地點</span><span>國立海洋科技博物館 潮境智能海洋館</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">成人NT$300／6歲以上兒童NT$250／未滿6歲免費</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡；未滿6歲免費 </span></li>
+  </ul>
+  <p class="desc">認識「海中幽靈」生物的萬聖節活動；憑票贈限量裝扮小物僅限10/31當日。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.nmmst.gov.tw/chhtml/newsdetail/556/11056" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article></section><section class="county-block" id="sec-taoyuan"><h2>✈️ 桃園市 <span class="n">6 項</span></h2>
+<article class="card event-card" id="ty01"
+  data-region="桃園"
+  data-cost="paid"
+  data-amin="1"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot orange">✈️ 桃園市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">金喇叭銅管樂團《魔幻樂章—銅管村嘉年華》</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）</span></li>
+    <li><span class="k">時間</span><span>14:30（約100分鐘）</span></li>
+    <li><span class="k">地點</span><span>桃園展演中心 展演廳（桃園區中正路1188號）</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">NT$300／400／600／800／1,000／1,200</span></li>
+    <li><span class="k">報名</span><span>需購票</span></li>
+    <li><span class="k">適合</span><span>建議1歲以上 </span></li>
+  </ul>
+  <p class="desc">互動式銅管音樂會，有魔術、雜耍與吹奏體驗。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.opentix.life/event/2028634382323146752" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="ty02"
+  data-region="桃園"
+  data-cost="partial"
+  data-amin="3"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot orange">✈️ 桃園市</span>
+    <span class="badge partial">部分免費</span>
+  </div>
+  <h3 class="card-title">兒童藝術特展「一樣不一樣 Same but Different」（11/30結束）</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>至11/30（週二休館）</span></li>
+    <li><span class="k">時間</span><span>09:30–17:00（16:30停止入場）；週六日11:00、15:00導覽</span></li>
+    <li><span class="k">地點</span><span>桃園市兒童美術館（中壢區高鐵南路二段90號）</span></li>
+    <li><span class="k">費用</span><span class="fee-partial">未滿18歲免費；成人NT$100</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡；建議3歲以上 <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">可以動手摸、搬、玩的共融藝術特展。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://culture.tycg.gov.tw/News_Content.aspx?n=11103&amp;s=1725745" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="ty03"
+  data-region="桃園"
+  data-cost="free"
+  data-amin="4"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot orange">✈️ 桃園市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">台語說故事：來熟似50種活物仔</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/29（日）</span></li>
+    <li><span class="k">時間</span><span>09:30–11:30</span></li>
+    <li><span class="k">地點</span><span>桃園市立圖書館埔子分館 2F文化教室（桃園區同安街601號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>需報名，名額有限</span></li>
+    <li><span class="k">適合</span><span>親子家庭；建議4歲以上（來源未標） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">動物故事、猜謎和台語動物卡牌桌遊。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.typl.gov.tw/zh-tw/Activity/Content/10135" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="ty04"
+  data-region="桃園"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot orange">✈️ 桃園市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">青埔聖誕不斷電 Christmas Market</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）起至12/27（官方標示；本週末11/28–29）</span></li>
+    <li><span class="k">時間</span><span>約12:00–20:00（請以主辦單位公告為準）</span></li>
+    <li><span class="k">地點</span><span>桃園置地廣場 2樓天橋（中壢區春德路107號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">外星人市集主辦的聖誕市集，有快閃攤位與現場音樂。</p>
+  <p class="card-note">官方頁為主辦單位 Linktree，完整檔期標示 11/28–12/27</p>
+  <div class="card-foot">
+    
+    <a class="more" href="https://linktr.ee/etmarket" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="ty05"
+  data-region="桃園"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot orange">✈️ 桃園市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">海沐市集｜11月桃園童藝基地野餐節</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）–11/29（日）</span></li>
+    <li><span class="k">時間</span><span>約12:00–20:00（請以主辦單位公告為準）</span></li>
+    <li><span class="k">地點</span><span>桃園展演中心（童藝基地）門前廣場（桃園區中正路1188號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡；親子、毛孩友善 <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">美食、手作與DIY的週末野餐市集。</p>
+  <p class="card-note">官方頁為主辦單位 Linktree，活動名稱依主辦單位標示</p>
+  <div class="card-foot">
+    
+    <a class="more" href="https://linktr.ee/haimu.ocean" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="ty06"
+  data-region="桃園"
+  data-cost="partial"
+  data-amin="4"
+  data-amax="12">
+  <div class="card-top">
+    <span class="county-dot orange">✈️ 桃園市</span>
+    <span class="badge partial">部分免費</span>
+  </div>
+  <h3 class="card-title">楊梅故事園區「百工百業職人」市集與親子體驗</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/29（日）</span></li>
+    <li><span class="k">時間</span><span>一日職人體驗所 13:00–15:00、15:00–17:00</span></li>
+    <li><span class="k">地點</span><span>楊梅故事園區（楊梅區校前路49號）</span></li>
+    <li><span class="k">費用</span><span class="fee-partial">一日職人體驗所 NT$199／人、雙人套票 NT$390；市集參觀請以現場為準</span></li>
+    <li><span class="k">報名</span><span>體驗所需購票（Accupass）</span></li>
+    <li><span class="k">適合</span><span>親子家庭；建議4歲以上（來源未標） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">兩小時走完六大職人體驗（稻穀脫殼、茶葉拓印、花藝、布藝等）。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.accupass.com/event/2611080810265131094280" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article></section><section class="county-block" id="sec-hsinchu"><h2>🌤️ 新竹市／新竹縣 <span class="n">6 項</span></h2>
+<article class="card event-card" id="hc01"
+  data-region="新竹"
+  data-cost="paid"
+  data-amin="4"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot yellow">🌤️ 新竹市</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">台灣昆蟲館「刺蝟」小小飼育員體驗課</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）</span></li>
+    <li><span class="k">時間</span><span>10:00–12:30</span></li>
+    <li><span class="k">地點</span><span>台灣昆蟲館新竹館（東區食品路66號）</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">NT$999／人（大人1位陪同免費）</span></li>
+    <li><span class="k">報名</span><span>需報名（限10人，頁面顯示剩4名）</span></li>
+    <li><span class="k">適合</span><span>4歲以上 </span></li>
+  </ul>
+  <p class="desc">量體重、健康檢查、餵刺蝟吃蟲蟲大餐。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://taiwan.insect.tw/web/activities/activities_in.jsp?aino=AI1787744579701" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="hc02"
+  data-region="新竹"
+  data-cost="free"
+  data-amin="3"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot yellow">🌤️ 新竹市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">森呼吸大冒險！青草湖環境教育活動</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28–12/12週末（本週：11/28、11/29）</span></li>
+    <li><span class="k">時間</span><span>10:00、14:00（每場約2小時）</span></li>
+    <li><span class="k">地點</span><span>青草湖停車場前集合（東區明湖路1075巷82號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>需BeClass報名（每場30人，名額可能已滿）</span></li>
+    <li><span class="k">適合</span><span>3歲以上親子（大人陪同） </span></li>
+  </ul>
+  <p class="desc">植物尋寶、賞鳥觀察與外來種調查。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.beclass.com/rid=31528a56ae2fd270f40f" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="hc03"
+  data-region="新竹"
+  data-cost="free"
+  data-amin="6"
+  data-amax="15">
+  <div class="card-top">
+    <span class="county-dot yellow">🌤️ 新竹市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">故事共創與生成體驗（臺灣科學節）</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）</span></li>
+    <li><span class="k">時間</span><span>10:00–12:00、14:00–16:00</span></li>
+    <li><span class="k">地點</span><span>台灣半導體研究中心（科學園區展業一路26號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>需線上報名；官方報名表單目前已關閉（可能已額滿）</span></li>
+    <li><span class="k">適合</span><span>國小至國中 </span></li>
+  </ul>
+  <p class="desc">結合故事引導與即時AI視覺生成的共創體驗。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://tsf.moe.edu.tw/event/1175" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="hc04"
+  data-region="新竹"
+  data-cost="free"
+  data-amin="6"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot yellow">🌤️ 新竹市</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">校園永續生活節：再生紙藝工作坊</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）</span></li>
+    <li><span class="k">時間</span><span>13:30–17:30</span></li>
+    <li><span class="k">地點</span><span>清大水木生活中心二樓共同活動室B、C區</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費（實境解謎為付費）</span></li>
+    <li><span class="k">報名</span><span>需BeClass報名（至11/27）</span></li>
+    <li><span class="k">適合</span><span>親子（國小學生以上） </span></li>
+  </ul>
+  <p class="desc">用回收紙杯做聖誕樹鑰匙圈。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.beclass.com/rid=31529006b000d97ea330" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="hc05"
+  data-region="新竹"
+  data-cost="paid"
+  data-amin="4"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot yellow">🌤️ 新竹縣</span>
+    <span class="badge paid">付費</span>
+  </div>
+  <h3 class="card-title">《超人力霸王舞台劇 與光同行60週年特別公演》</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/27（五）</span></li>
+    <li><span class="k">時間</span><span>19:30</span></li>
+    <li><span class="k">地點</span><span>新竹縣政府文化局演藝廳</span></li>
+    <li><span class="k">費用</span><span class="fee-paid">NT$600–2,200</span></li>
+    <li><span class="k">報名</span><span>需購票，對號入座</span></li>
+    <li><span class="k">適合</span><span>建議4歲以上（來源未標） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">超人力霸王60週年舞台劇，本週僅週五晚場。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://ticket.com.tw/application/UTK02/UTK0201_.aspx?PRODUCT_ID=P1F33E6Z" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="hc06"
+  data-region="新竹"
+  data-cost="free"
+  data-amin="4"
+  data-amax="12">
+  <div class="card-top">
+    <span class="county-dot yellow">🌤️ 新竹縣</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">職掘｜親子挑戰賽「特別場」</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/29（日）</span></li>
+    <li><span class="k">時間</span><span>10:00–12:00（09:30報到）</span></li>
+    <li><span class="k">地點</span><span>新竹縣關西鎮上林里58-6號 拇指園</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>需ACCUPASS報名（限20組家庭）</span></li>
+    <li><span class="k">適合</span><span>每組至少1位大人加1位小孩（建議4–12歲） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">親子挑戰賽，每組2–5人。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.accupass.com/event/2610290207451081855805" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article></section><section class="county-block" id="sec-yilan"><h2>♨️ 宜蘭縣 <span class="n">6 項</span></h2>
+<article class="card event-card" id="yl01"
+  data-region="宜蘭"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot green">♨️ 宜蘭縣</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">2026礁溪溫泉燈花季</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/19–2027/2/21</span></li>
+    <li><span class="k">時間</span><span>每晚18:00–23:00</span></li>
+    <li><span class="k">地點</span><span>礁溪溫泉區（迎賓、地景、溫泉、水景廣場與湯圍溪步道）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">5公尺主燈與四大燈區，順遊免費足湯。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.jiaoxi-tourism.tw/index.php/zh/news/item/2118-2026" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="yl02"
+  data-region="宜蘭"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot green">♨️ 宜蘭縣</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">紙廠電影院—中興57影展（11/29三場）</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/29（日）；11/28週六無排片</span></li>
+    <li><span class="k">時間</span><span>10:30《極鼠方程式》；13:30《台灣超人》；16:30《小霓虹的願望》</span></li>
+    <li><span class="k">地點</span><span>中興文化創意園區 57號影視中心（五結鄉中正路二段6之8號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>Accupass免費索票；沒票可放映前30分鐘領號碼牌候補</span></li>
+    <li><span class="k">適合</span><span>《極鼠方程式》普遍級；《小霓虹的願望》保護級（未滿6歲不得入場，6–12歲需大人陪同） </span></li>
+  </ul>
+  <p class="desc">免費看動畫電影，早場最適合小小孩。</p>
+  <p class="card-note">場次與分級來自媒體彙整</p>
+  <div class="card-foot">
+    
+    <a class="more" href="https://www.e-land.gov.tw/News_Content.aspx?n=2720&amp;s=411806" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="yl03"
+  data-region="宜蘭"
+  data-cost="partial"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot green">♨️ 宜蘭縣</span>
+    <span class="badge partial">部分免費</span>
+  </div>
+  <h3 class="card-title">2026草嶺古道芒花季</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/14–12/13每週六、日</span></li>
+    <li><span class="k">時間</span><span>市集10:00–16:00；拓碑10:00–15:00；DIY 13:30起</span></li>
+    <li><span class="k">地點</span><span>大里遊客中心（頭城）、福隆遊客中心（新北貢寮）</span></li>
+    <li><span class="k">費用</span><span class="fee-partial">市集、拓碑、古裝租借、福隆⇄遠望坑口接駁免費；手作DIY每人NT$100</span></li>
+    <li><span class="k">報名</span><span>DIY需網路預約；拓碑現場報名（每日20名）</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">賞芒花、集章換徽章、拓虎字碑、免費古裝拍照。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://events.necoast-nsa.gov.tw/flower26/page-2.html" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="yl04"
+  data-region="宜蘭"
+  data-cost="free"
+  data-amin="5"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot green">♨️ 宜蘭縣</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">週末劇場《益春留傘》</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）</span></li>
+    <li><span class="k">時間</span><span>14:30、15:30</span></li>
+    <li><span class="k">地點</span><span>台灣戲劇館暫駐場所（宜蘭市中山路3段1號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費</span></li>
+    <li><span class="k">報名</span><span>不售票，自由入場</span></li>
+    <li><span class="k">適合</span><span>建議5歲以上（來源未標） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">改良歌仔戲演出，可免費學唱腔身段、上台互動。</p>
+  <p class="card-note">11/28選舉日，出發前確認</p>
+  <div class="card-foot">
+    
+    <a class="more" href="https://event.moc.gov.tw/search-2886572.html" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="yl05"
+  data-region="宜蘭"
+  data-cost="free"
+  data-amin="3"
+  data-amax="8">
+  <div class="card-top">
+    <span class="county-dot green">♨️ 宜蘭縣</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">醜小鴨故事劇場</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/29（日）</span></li>
+    <li><span class="k">時間</span><span>10:00起（約1小時）</span></li>
+    <li><span class="k">地點</span><span>宜蘭文學館 展演空間（舊城南路縣府2巷19號）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費（不售票）</span></li>
+    <li><span class="k">報名</span><span>免報名（以現場公告為準）</span></li>
+    <li><span class="k">適合</span><span>親子；建議3–8歲（來源未標） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">醜小鴨故事劇團講繪本故事。</p>
+  
+  <div class="card-foot">
+    
+    <a class="more" href="https://event.moc.gov.tw/search-2892163.html" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article>
+
+<article class="card event-card" id="yl06"
+  data-region="宜蘭"
+  data-cost="free"
+  data-amin="0"
+  data-amax="99">
+  <div class="card-top">
+    <span class="county-dot green">♨️ 宜蘭縣</span>
+    <span class="badge free">免費</span>
+  </div>
+  <h3 class="card-title">興創村市集 聖誕小鎮</h3>
+  <ul class="meta">
+    <li><span class="k">日期</span><span>11/28（六）–11/29（日）</span></li>
+    <li><span class="k">時間</span><span>每日開市時間主辦單位尚未公告</span></li>
+    <li><span class="k">地點</span><span>中興文創園區 光合屋＋戲棚下（五結鄉）</span></li>
+    <li><span class="k">費用</span><span class="fee-free">免費入場</span></li>
+    <li><span class="k">報名</span><span>免預約</span></li>
+    <li><span class="k">適合</span><span>全齡（建議） <span class="hint">年齡為建議值</span></span></li>
+  </ul>
+  <p class="desc">聖誕主題市集，與免費電影同園區。</p>
+  <p class="card-note">開市時間待確認</p>
+  <div class="card-foot">
+    <span class="hint">非官方資訊，出發前請再確認</span>
+    <a class="more" href="https://eventgo.tw/event/8df77635-93ba-4991-81bc-2185c9876464" target="_blank" rel="noopener">看活動資訊 →</a>
+  </div>
+</article></section>
+
+  <section><h2 class="sec">🗓️ 下週預告</h2><ul class="soon"><li><b>12/3–2027/1/1</b>2026臺北耶誕愛無限</li><li><b>12/4–12/6</b>萌幻小鎮・德國耶誕市集（新北市民廣場）</li><li><b>12/5起每週六</b>新竹Fun聖誕 假日聖誕市集手作（護城河畔，免費、需報名）</li><li><b>12/6</b>耶誕快追！新北市耶誕馬拉松接力賽</li></ul></section>
+
+  <section>
+    <h2 class="sec">📝 資料說明</h2>
+    <ul class="notes">
+      <li>免費的活動都會標出「免費」兩個字。</li>
+      <li>年齡若寫「建議」，是依活動內容給的參考，不是主辦單位標示。</li>
+      <li>部分活動資料來自活動彙整網站，出發前請再向官方確認時間、票價與名額。</li>
+      <li>名額有限的活動，剩餘名額會隨時變動，請以報名頁為準。</li>
+    </ul>
+  </section>
+
+  <div class="cta">
+    <a class="cbtn ig" href="https://www.instagram.com/tiffany_travel_/" target="_blank" rel="noopener">📸 追蹤 @tiffany_travel_</a>
+    <a class="cbtn line" href="https://line.me/ti/g2/4rqsnNA_iLEYufeOGXY7y0ts_n1dswmvV9k_7Q?utm_source=invitation&amp;utm_medium=link_copy&amp;utm_campaign=default" target="_blank" rel="noopener">💬 加入旅遊群組</a>
+  </div>
+  <footer class="disc">
+    個人整理、以官方公告為準。<br>
+    資料來自各縣市政府、場館與售票網站。活動時間、票價與名額可能異動。<br>
+    更新日期：2026/11/27
+  </footer>
+</div>
+<script>
+
+(function () {
+  var html = document.documentElement;
+  html.classList.add("js");
+
+  function qs(sel, root) { return (root || document).querySelector(sel); }
+  function qsa(sel, root) { return Array.prototype.slice.call((root || document).querySelectorAll(sel)); }
+
+  var AGE = {
+    "0-2": [0, 2],
+    "3-5": [3, 5],
+    "6-8": [6, 8],
+    "9-12": [9, 12]
+  };
+
+  function groupOn(name, value) {
+    qsa('[data-filter="' + name + '"]').forEach(function (el) {
+      var on = el.getAttribute("data-value") === value;
+      el.classList.toggle("on", on);
+      el.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+  }
+
+  function current(name) {
+    var el = qs('[data-filter="' + name + '"].on');
+    return el ? el.getAttribute("data-value") : "all";
+  }
+
+  function apply() {
+    var region = current("region");
+    var cost = current("cost");
+    var age = current("age");
+    var range = AGE[age];
+    var shown = 0;
+    qsa(".event-card").forEach(function (card) {
+      var ok = true;
+      if (region !== "all" && card.getAttribute("data-region") !== region) ok = false;
+      if (cost !== "all" && card.getAttribute("data-cost") !== cost) ok = false;
+      if (range) {
+        var amin = Number(card.getAttribute("data-amin"));
+        var amax = Number(card.getAttribute("data-amax"));
+        if (amax < range[0] || amin > range[1]) ok = false;
+      }
+      card.classList.toggle("is-hidden", !ok);
+      if (ok) shown += 1;
+    });
+    qsa(".county-block").forEach(function (block) {
+      var n = qsa(".event-card:not(.is-hidden)", block).length;
+      block.classList.toggle("is-empty", n === 0);
+      var badge = qs(".n", block);
+      if (badge) badge.textContent = n + " 項";
+    });
+    var count = qs("#filter-count");
+    if (count) count.innerHTML = "符合條件：<em>" + shown + "</em> 項";
+    var empty = qs("#empty");
+    if (empty) empty.classList.toggle("show", shown === 0);
+    var picks = qs("#picks");
+    if (picks) picks.classList.toggle("is-hidden", region !== "all" || cost !== "all" || age !== "all");
+  }
+
+  function setFilter(name, value, push) {
+    groupOn(name, value);
+    apply();
+    if (push !== false && history.replaceState) {
+      var u = new URL(location.href);
+      ["region", "cost", "age"].forEach(function (k) {
+        var v = current(k);
+        if (v && v !== "all") u.searchParams.set(k, v);
+        else u.searchParams.delete(k);
+      });
+      history.replaceState(null, "", u.pathname + u.search + u.hash);
+    }
+  }
+
+  qsa("[data-filter]").forEach(function (el) {
+    el.addEventListener("click", function (e) {
+      e.preventDefault();
+      setFilter(el.getAttribute("data-filter"), el.getAttribute("data-value"));
+    });
+  });
+
+  var params = new URLSearchParams(location.search);
+  ["region", "cost", "age"].forEach(function (k) {
+    var v = params.get(k);
+    if (v) groupOn(k, v);
+  });
+  apply();
+})();
+
+</script>
+</body>
+</html>
